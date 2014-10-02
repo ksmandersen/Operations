@@ -13,6 +13,17 @@
 		FFE50B1119DCA93D00170D26 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE50B1019DCA93D00170D26 /* Images.xcassets */; };
 		FFE50B1419DCA93D00170D26 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FFE50B1219DCA93D00170D26 /* LaunchScreen.xib */; };
 		FFE50B2019DCA93D00170D26 /* OperationsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE50B1F19DCA93D00170D26 /* OperationsTests.swift */; };
+		FFE50B2A19DCA98600170D26 /* Operation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE50B2919DCA98600170D26 /* Operation.swift */; };
+		FFE50B2C19DCABEC00170D26 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE50B2B19DCABEC00170D26 /* Promise.swift */; };
+		FFE50B2E19DCAC2200170D26 /* DataToStringOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE50B2D19DCAC2200170D26 /* DataToStringOperation.swift */; };
+		FFE50B3019DCAC3E00170D26 /* PrintOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE50B2F19DCAC3E00170D26 /* PrintOperation.swift */; };
+		FFE50B3219DCAC5700170D26 /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE50B3119DCAC5700170D26 /* NetworkOperation.swift */; };
+		FFE50B3419DCAC6800170D26 /* CompositeOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE50B3319DCAC6800170D26 /* CompositeOperation.swift */; };
+		FFE50B3719DCAEAC00170D26 /* ImageResizeOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE50B3619DCAEAC00170D26 /* ImageResizeOperation.swift */; };
+		FFE50B3919DCB7DB00170D26 /* SwiftyJson.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE50B3819DCB7DB00170D26 /* SwiftyJson.swift */; };
+		FFE50B3B19DCB83700170D26 /* JsonOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE50B3A19DCB83700170D26 /* JsonOperation.swift */; };
+		FFE50B3D19DCBF9F00170D26 /* BlockOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE50B3C19DCBF9F00170D26 /* BlockOperation.swift */; };
+		FFE50B3F19DCC41600170D26 /* DataToImageOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE50B3E19DCC41600170D26 /* DataToImageOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +47,17 @@
 		FFE50B1919DCA93D00170D26 /* OperationsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OperationsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FFE50B1E19DCA93D00170D26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FFE50B1F19DCA93D00170D26 /* OperationsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OperationsTests.swift; sourceTree = "<group>"; };
+		FFE50B2919DCA98600170D26 /* Operation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operation.swift; sourceTree = "<group>"; };
+		FFE50B2B19DCABEC00170D26 /* Promise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Promise.swift; sourceTree = "<group>"; };
+		FFE50B2D19DCAC2200170D26 /* DataToStringOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataToStringOperation.swift; sourceTree = "<group>"; };
+		FFE50B2F19DCAC3E00170D26 /* PrintOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrintOperation.swift; sourceTree = "<group>"; };
+		FFE50B3119DCAC5700170D26 /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
+		FFE50B3319DCAC6800170D26 /* CompositeOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompositeOperation.swift; sourceTree = "<group>"; };
+		FFE50B3619DCAEAC00170D26 /* ImageResizeOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageResizeOperation.swift; sourceTree = "<group>"; };
+		FFE50B3819DCB7DB00170D26 /* SwiftyJson.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJson.swift; sourceTree = "<group>"; };
+		FFE50B3A19DCB83700170D26 /* JsonOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonOperation.swift; sourceTree = "<group>"; };
+		FFE50B3C19DCBF9F00170D26 /* BlockOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlockOperation.swift; sourceTree = "<group>"; };
+		FFE50B3E19DCC41600170D26 /* DataToImageOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataToImageOperation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +81,7 @@
 		FFE50AFB19DCA93D00170D26 = {
 			isa = PBXGroup;
 			children = (
+				FFE50B3519DCAE1100170D26 /* App */,
 				FFE50B0619DCA93D00170D26 /* Operations */,
 				FFE50B1C19DCA93D00170D26 /* OperationsTests */,
 				FFE50B0519DCA93D00170D26 /* Products */,
@@ -77,12 +100,17 @@
 		FFE50B0619DCA93D00170D26 /* Operations */ = {
 			isa = PBXGroup;
 			children = (
-				FFE50B0919DCA93D00170D26 /* AppDelegate.swift */,
-				FFE50B0B19DCA93D00170D26 /* ViewController.swift */,
-				FFE50B0D19DCA93D00170D26 /* Main.storyboard */,
-				FFE50B1019DCA93D00170D26 /* Images.xcassets */,
-				FFE50B1219DCA93D00170D26 /* LaunchScreen.xib */,
-				FFE50B0719DCA93D00170D26 /* Supporting Files */,
+				FFE50B2919DCA98600170D26 /* Operation.swift */,
+				FFE50B2B19DCABEC00170D26 /* Promise.swift */,
+				FFE50B2D19DCAC2200170D26 /* DataToStringOperation.swift */,
+				FFE50B2F19DCAC3E00170D26 /* PrintOperation.swift */,
+				FFE50B3119DCAC5700170D26 /* NetworkOperation.swift */,
+				FFE50B3319DCAC6800170D26 /* CompositeOperation.swift */,
+				FFE50B3619DCAEAC00170D26 /* ImageResizeOperation.swift */,
+				FFE50B3819DCB7DB00170D26 /* SwiftyJson.swift */,
+				FFE50B3A19DCB83700170D26 /* JsonOperation.swift */,
+				FFE50B3C19DCBF9F00170D26 /* BlockOperation.swift */,
+				FFE50B3E19DCC41600170D26 /* DataToImageOperation.swift */,
 			);
 			path = Operations;
 			sourceTree = "<group>";
@@ -110,6 +138,20 @@
 				FFE50B1E19DCA93D00170D26 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FFE50B3519DCAE1100170D26 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FFE50B0919DCA93D00170D26 /* AppDelegate.swift */,
+				FFE50B0B19DCA93D00170D26 /* ViewController.swift */,
+				FFE50B0D19DCA93D00170D26 /* Main.storyboard */,
+				FFE50B1019DCA93D00170D26 /* Images.xcassets */,
+				FFE50B1219DCA93D00170D26 /* LaunchScreen.xib */,
+				FFE50B0719DCA93D00170D26 /* Supporting Files */,
+			);
+			name = App;
+			path = Operations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +254,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE50B2A19DCA98600170D26 /* Operation.swift in Sources */,
+				FFE50B3719DCAEAC00170D26 /* ImageResizeOperation.swift in Sources */,
 				FFE50B0C19DCA93D00170D26 /* ViewController.swift in Sources */,
+				FFE50B3D19DCBF9F00170D26 /* BlockOperation.swift in Sources */,
+				FFE50B3F19DCC41600170D26 /* DataToImageOperation.swift in Sources */,
 				FFE50B0A19DCA93D00170D26 /* AppDelegate.swift in Sources */,
+				FFE50B2C19DCABEC00170D26 /* Promise.swift in Sources */,
+				FFE50B2E19DCAC2200170D26 /* DataToStringOperation.swift in Sources */,
+				FFE50B3019DCAC3E00170D26 /* PrintOperation.swift in Sources */,
+				FFE50B3219DCAC5700170D26 /* NetworkOperation.swift in Sources */,
+				FFE50B3419DCAC6800170D26 /* CompositeOperation.swift in Sources */,
+				FFE50B3919DCB7DB00170D26 /* SwiftyJson.swift in Sources */,
+				FFE50B3B19DCB83700170D26 /* JsonOperation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
